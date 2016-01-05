@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="7hI-cy-FQN">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="7hI-cy-FQN">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="qRe-s5-E7C">
             <objects>
-                <viewController id="7hI-cy-FQN" customClass="MainViewController" customModule="tvOS9_VideoPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7hI-cy-FQN" customClass="MainViewController" customModule="tvpt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="s1N-9k-wJF"/>
                         <viewControllerLayoutGuide type="bottom" id="knJ-NW-wgz"/>
@@ -59,7 +59,7 @@
         <!--AV Player View Controller-->
         <scene sceneID="jdg-4Q-3o0">
             <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="iO7-RC-JHF" customClass="VideoPlayerViewController" customModule="tvOS9_VideoPlayer" customModuleProvider="target" sceneMemberID="viewController"/>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="iO7-RC-JHF" customClass="VideoPlayerViewController" customModule="tvpt" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z4Z-f5-EcT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-620" y="1562"/>

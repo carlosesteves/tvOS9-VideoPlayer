@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7EC5D52C1BA4A2C300EFC496 /* tvOS9-VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS9-VideoPlayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC5D52C1BA4A2C300EFC496 /* tvpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvpt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC5D52F1BA4A2C300EFC496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EC5D5341BA4A2C300EFC496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EC5D5361BA4A2C300EFC496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		7EC5D5231BA4A2C300EFC496 = {
 			isa = PBXGroup;
 			children = (
-				7EC5D52E1BA4A2C300EFC496 /* tvOS9-VideoPlayer */,
+				7EC5D52E1BA4A2C300EFC496 /* tvpt */,
 				7EC5D52D1BA4A2C300EFC496 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,16 +46,17 @@
 		7EC5D52D1BA4A2C300EFC496 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EC5D52C1BA4A2C300EFC496 /* tvOS9-VideoPlayer.app */,
+				7EC5D52C1BA4A2C300EFC496 /* tvpt.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7EC5D52E1BA4A2C300EFC496 /* tvOS9-VideoPlayer */ = {
+		7EC5D52E1BA4A2C300EFC496 /* tvpt */ = {
 			isa = PBXGroup;
 			children = (
 				7EC5D5421BA4AF0A00EFC496 /* App */,
 			);
+			name = tvpt;
 			path = "tvOS9-VideoPlayer";
 			sourceTree = "<group>";
 		};
@@ -99,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7EC5D52B1BA4A2C300EFC496 /* tvOS9-VideoPlayer */ = {
+		7EC5D52B1BA4A2C300EFC496 /* tvpt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7EC5D53B1BA4A2C300EFC496 /* Build configuration list for PBXNativeTarget "tvOS9-VideoPlayer" */;
+			buildConfigurationList = 7EC5D53B1BA4A2C300EFC496 /* Build configuration list for PBXNativeTarget "tvpt" */;
 			buildPhases = (
 				7EC5D5281BA4A2C300EFC496 /* Sources */,
 				7EC5D5291BA4A2C300EFC496 /* Frameworks */,
@@ -111,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = "tvOS9-VideoPlayer";
+			name = tvpt;
 			productName = "tvOS9-VideoPlayer";
-			productReference = 7EC5D52C1BA4A2C300EFC496 /* tvOS9-VideoPlayer.app */;
+			productReference = 7EC5D52C1BA4A2C300EFC496 /* tvpt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,10 +128,11 @@
 				TargetAttributes = {
 					7EC5D52B1BA4A2C300EFC496 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KCAWZ2AK6C;
 					};
 				};
 			};
-			buildConfigurationList = 7EC5D5271BA4A2C300EFC496 /* Build configuration list for PBXProject "tvOS9-VideoPlayer" */;
+			buildConfigurationList = 7EC5D5271BA4A2C300EFC496 /* Build configuration list for PBXProject "tvpt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -143,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7EC5D52B1BA4A2C300EFC496 /* tvOS9-VideoPlayer */,
+				7EC5D52B1BA4A2C300EFC496 /* tvpt */,
 			);
 		};
 /* End PBXProject section */
@@ -271,10 +273,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "tvOS9-VideoPlayer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.tvOS9-VideoPlayer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = tvpt;
+				PRODUCT_NAME = tvpt;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -283,17 +288,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "tvOS9-VideoPlayer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.tvOS9-VideoPlayer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = tvpt;
+				PRODUCT_NAME = tvpt;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7EC5D5271BA4A2C300EFC496 /* Build configuration list for PBXProject "tvOS9-VideoPlayer" */ = {
+		7EC5D5271BA4A2C300EFC496 /* Build configuration list for PBXProject "tvpt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EC5D5391BA4A2C300EFC496 /* Debug */,
@@ -302,13 +310,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EC5D53B1BA4A2C300EFC496 /* Build configuration list for PBXNativeTarget "tvOS9-VideoPlayer" */ = {
+		7EC5D53B1BA4A2C300EFC496 /* Build configuration list for PBXNativeTarget "tvpt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EC5D53C1BA4A2C300EFC496 /* Debug */,
 				7EC5D53D1BA4A2C300EFC496 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

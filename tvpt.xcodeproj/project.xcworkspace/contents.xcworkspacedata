@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tvOS9-VideoPlayer.xcodeproj">
+      location = "self:/Users/carlosesteves/git/tvOS9-VideoPlayer/tvpt.xcodeproj">
    </FileRef>
 </Workspace>
