@@ -16,40 +16,73 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tvOS - Video Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JO-KD-GgN">
-                                <rect key="frame" x="509" y="383" width="902" height="174"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="902" id="vGz-52-M4S"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="106"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAe-eo-hsv">
-                                <rect key="frame" x="694" y="610" width="532" height="86"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="Qrb-Qh-Zqb"/>
-                                    <constraint firstAttribute="width" constant="532" id="xLt-UT-WaO"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uv8-u6-Nj3" userLabel="TVI Button">
+                                <rect key="frame" x="1399" y="349" width="348" height="145"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="Play NASA Movie!"/>
+                                <state key="normal" backgroundImage="tvi"/>
                                 <connections>
-                                    <action selector="playVideo:" destination="7hI-cy-FQN" eventType="primaryActionTriggered" id="YpQ-fq-sZP"/>
+                                    <action selector="playTVI:" destination="7hI-cy-FQN" eventType="primaryActionTriggered" id="grb-lz-egz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTD-nc-KJ8" userLabel="TVI24 Button">
+                                <rect key="frame" x="991" y="553" width="348" height="145"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <size key="titleShadowOffset" width="2" height="2"/>
+                                <state key="normal" backgroundImage="tvi24"/>
+                                <connections>
+                                    <action selector="playTVI24:" destination="7hI-cy-FQN" eventType="primaryActionTriggered" id="uGM-vH-Wue"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFn-R5-INO" userLabel="RTP1 Button">
+                                <rect key="frame" x="174" y="349" width="348" height="145"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="rtp1"/>
+                                <connections>
+                                    <action selector="playRTP1:" destination="7hI-cy-FQN" eventType="primaryActionTriggered" id="5wS-us-sxt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ng5-fm-H0V" userLabel="RTP2 Button">
+                                <rect key="frame" x="583" y="349" width="348" height="145"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="rtp2"/>
+                                <connections>
+                                    <action selector="playRTP2:" destination="7hI-cy-FQN" eventType="primaryActionTriggered" id="FA1-WB-7yK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9d-z7-Hzc" userLabel="RTP3 Button">
+                                <rect key="frame" x="174" y="553" width="348" height="145"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="rtp3"/>
+                                <connections>
+                                    <action selector="playRTP3:" destination="7hI-cy-FQN" eventType="primaryActionTriggered" id="SV6-jW-jRj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hur-U2-WLh" userLabel="SICN Button">
+                                <rect key="frame" x="583" y="553" width="348" height="145"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="sicnoticias"/>
+                                <connections>
+                                    <action selector="playSICN:" destination="7hI-cy-FQN" eventType="primaryActionTriggered" id="KUe-L0-b6Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRN-av-OUE" userLabel="SIC Button">
+                                <rect key="frame" x="991" y="349" width="348" height="145"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" backgroundImage="sic"/>
+                                <connections>
+                                    <action selector="playSIC:" destination="7hI-cy-FQN" eventType="primaryActionTriggered" id="Bg6-V3-6BI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TV PT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oU-AD-Y3d">
+                                <rect key="frame" x="838" y="90" width="244" height="105"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="82"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <constraints>
-                            <constraint firstItem="2JO-KD-GgN" firstAttribute="top" secondItem="s1N-9k-wJF" secondAttribute="bottom" constant="383" id="1e8-xF-BjN"/>
-                            <constraint firstItem="cAe-eo-hsv" firstAttribute="centerX" secondItem="2JO-KD-GgN" secondAttribute="centerX" id="4k1-ig-zch"/>
-                            <constraint firstItem="cAe-eo-hsv" firstAttribute="top" secondItem="2JO-KD-GgN" secondAttribute="bottom" constant="53" id="5MG-Oa-Sbm"/>
-                            <constraint firstItem="cAe-eo-hsv" firstAttribute="centerX" secondItem="doI-ys-BzL" secondAttribute="centerX" id="Mgv-Cd-iHH"/>
-                            <constraint firstItem="knJ-NW-wgz" firstAttribute="top" secondItem="cAe-eo-hsv" secondAttribute="bottom" constant="384" id="UbR-wG-ntD"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="headLabel" destination="2JO-KD-GgN" id="QXA-Se-KL5"/>
-                        <outlet property="playButton" destination="cAe-eo-hsv" id="iAg-nS-wsb"/>
-                        <segue destination="iO7-RC-JHF" kind="show" identifier="ShowAVPlayer" id="rhD-zH-IaV"/>
+                        <outlet property="playButton" destination="aTD-nc-KJ8" id="VTH-bW-qyW"/>
+                        <segue destination="iO7-RC-JHF" kind="show" identifier="SegueTV" id="rhD-zH-IaV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XhH-Da-m3o" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -65,4 +98,13 @@
             <point key="canvasLocation" x="-620" y="1562"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rtp1" width="348" height="145"/>
+        <image name="rtp2" width="318" height="158"/>
+        <image name="rtp3" width="355" height="142"/>
+        <image name="sic" width="318" height="159"/>
+        <image name="sicnoticias" width="340" height="120"/>
+        <image name="tvi" width="306" height="165"/>
+        <image name="tvi24" width="410" height="123"/>
+    </resources>
 </document>

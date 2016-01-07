@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72FD4E711C3C6B9F00920B15 /* ffmpeg-avplayer-for-ios-tvos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ffmpeg-avplayer-for-ios-tvos"; sourceTree = "<group>"; };
 		7EC5D52C1BA4A2C300EFC496 /* tvpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvpt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC5D52F1BA4A2C300EFC496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EC5D5341BA4A2C300EFC496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		7EC5D5231BA4A2C300EFC496 = {
 			isa = PBXGroup;
 			children = (
+				72FD4E711C3C6B9F00920B15 /* ffmpeg-avplayer-for-ios-tvos */,
 				7EC5D52E1BA4A2C300EFC496 /* tvpt */,
 				7EC5D52D1BA4A2C300EFC496 /* Products */,
 			);
@@ -275,6 +277,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ffmpeg-avplayer-for-ios-tvos",
+				);
 				INFOPLIST_FILE = "tvOS9-VideoPlayer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tvpt;
@@ -290,6 +296,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ffmpeg-avplayer-for-ios-tvos",
+				);
 				INFOPLIST_FILE = "tvOS9-VideoPlayer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tvpt;

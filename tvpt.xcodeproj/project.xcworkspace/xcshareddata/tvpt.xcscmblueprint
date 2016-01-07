@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6FDF2C26E4939719C878A4B08B5984AA91AB3A17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AF6924B4193EC39876ED476B1881524E7877415D" : 0,
+    "6FDF2C26E4939719C878A4B08B5984AA91AB3A17" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "03F3FDFC-8639-4EAE-B400-E891B5FD4CF7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AF6924B4193EC39876ED476B1881524E7877415D" : "..\/temp\/ffmpeg-avplayer-for-ios-tvos",
+    "6FDF2C26E4939719C878A4B08B5984AA91AB3A17" : "tvOS9-VideoPlayer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tvpt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tvpt.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:carlosesteves\/tvOS9-VideoPlayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FDF2C26E4939719C878A4B08B5984AA91AB3A17"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iMoreApps\/ffmpeg-avplayer-for-ios-tvos",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AF6924B4193EC39876ED476B1881524E7877415D"
+    }
+  ]
+}
